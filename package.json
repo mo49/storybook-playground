@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "build-storybook": "nuxt storybook build"
   },
   "dependencies": {
     "core-js": "^3.19.3",
@@ -22,6 +23,7 @@
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/storybook": "^4.3.2",
+    "chromatic": "^6.7.3",
     "ts-node": "^10.9.1"
   }
 }
