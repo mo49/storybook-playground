@@ -7,7 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "build-storybook": "nuxt storybook build"
+    "build-storybook": "nuxt storybook build",
+    "chromatic": "npx chromatic"
   },
   "dependencies": {
     "core-js": "^3.19.3",
@@ -25,5 +26,7 @@
     "@nuxtjs/storybook": "^4.3.2",
     "chromatic": "^6.7.3",
     "ts-node": "^10.9.1"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook-playground@1.0.0"
 }
