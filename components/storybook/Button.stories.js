@@ -18,5 +18,5 @@ export const Secondary = Template.bind({})
 Secondary.args = {
   type: 'secondary',
   text: 'SECONDARY BUTTON',
-  showIcon: true,
+  showIcon: false,
 }
